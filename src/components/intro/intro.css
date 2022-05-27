@@ -62,8 +62,8 @@
   font-weight: 500;
   border-radius: 10px;
   position: absolute;
-  left: 90px;
-  top: 710px;
+  left: 6%;
+  top: 85%;
 }
 
 .resume-button:hover {
@@ -132,13 +132,18 @@
     height: 100%;
   }
 
+  .ig-logo {
+    margin: 15px 10px;
+  }
+
   .resume-button{
-    top: 750px;
-    left: 120px;
-    height: 30px;
-    width: 100px;
+    top: 130%;
+    left: 35%;
+    height: 35px;
+    width: 110px;
     overflow: hidden;
     padding: 3px;
+    z-index: 1;
   }
 
   .i-desc{

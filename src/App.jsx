@@ -5,6 +5,8 @@ import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
+import "./app.css";
+import rotatePhone from "./img/rotatePhone.png"
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -16,11 +18,17 @@ const App = () => {
         color: darkMode && "white",
       }}
     >
-      <Toggle />
-      <Intro />
-      <About />
-      <ProductList />
-      <Contact />
+      <div id="turn">
+        <img src={rotatePhone} alt="" />
+        <h1>Please rotate your devices!</h1>
+      </div>
+      <div id="container">
+        <Toggle />
+        <Intro />
+        <About />
+        <ProductList />
+        <Contact />
+      </div>
     </div>
   );
 };

@@ -5,15 +5,19 @@ const Product = ({ img, link, code, name }) => {
     <div className="p">
       <div className="p-browser">
         <div className="p-circle">
-            <a href={code} target="_blank" rel="noreferrer">
-              <p>Code</p>
-            </a>
+          <a href={code} target="_blank" rel="noreferrer">
+            <p>Code</p>
+          </a>
         </div>
-        <div className="p-name">
+        {/* <div className="p-name">
           <p>{name}</p>
-        </div>
+        </div> */}
       </div>
       <a href={link} target="_blank" rel="noreferrer">
+          <div className="p-cover" >
+            <h2>{name}</h2>
+            <p>Hover to preview Project</p>
+          </div>
         <img src={img} alt="" className="p-img" />
       </a>
     </div>
