@@ -1,3 +1,4 @@
+
 .p {
   width: 30%;
   height: 40vh;
@@ -23,7 +24,19 @@
   border-radius: 5px;
   margin: 3px;
   background-color: #59b256;
-  text-decoration: none;
+}
+
+.p-cover {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.808);
+  height: 40vh;
+  cursor: pointer;
+  color:rgb(126, 126, 126);
+}
+
+.p-cover > h2 {
+  padding-top: 120px;
+  font-size:28px;
 }
 
 .p-circle a {
@@ -31,7 +44,7 @@
   color: rgb(252, 247, 247);
 }
 
-.p-circle:hover a{
+.p-circle:hover a {
   color: white;
 }
 .p-circle:hover {
@@ -49,7 +62,7 @@
 }
 
 .p:hover .p-img {
-  transform: translateY(-100%);
+  transform: translateY(-110%);
 }
 
 @media screen and (max-width: 480px) {
@@ -62,9 +75,12 @@
     display: none;
   }
 
-
   .p-circle {
     font-size: 15px;
     margin: 2px;
+  }
+
+  .p-cover {
+    display: none;
   }
 }

@@ -8,8 +8,11 @@ import html from "../../img/tech/html.png";
 import mongodb from "../../img/tech/mongodb.png";
 import nodejs from "../../img/tech/nodejs.png";
 import git from "../../img/tech/git.png";
-import docker from "../../img/tech/docker.png";
+import redux from "../../img/tech/redux.png";
 import bootstrap from "../../img/tech/bootstrap.png";
+import linux from "../../img/tech/linux.png";
+import mui from "../../img/tech/mui.png";
+import firebase from "../../img/tech/firebase.png";
 
 const About = () => {
   return (
@@ -33,7 +36,7 @@ const About = () => {
         <p className="a-desc">
           I'm currently a <b>Btech CSE</b> student at Gurugram university. My expertise live in the field of <b>software engineering</b> and I have got a firm base on <b>Data Strurctures and Algorithms</b> along with good software engineering practices.
         </p>
-        <p className="a-desc">I enjoy being challenged and engaging with projects that require me to work outside my confort and knowledge set, as continuing to learn new languages and development techniques are important to me.</p>
+        <p className="a-desc">I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me.</p>
         <div className="a-award">
           <div className="a-texts">
             <h3 className="a-title">Tech Stack</h3>
@@ -46,8 +49,11 @@ const About = () => {
               <img className="a-tech" src={mongodb} alt="" />
               <img className="a-tech" src={nodejs} alt="" />
               <img className="a-tech" src={git} alt="" />
-              <img className="a-tech" src={docker} alt="" />
+              <img className="a-tech" src={redux} alt="" />
+              <img className="a-tech" src={linux} alt="" />
               <img className="a-tech" src={bootstrap} alt="" />
+              <img className="a-tech" src={mui} alt="" />
+              <img className="a-tech" src={firebase} alt="" />
             </div>
           </div>
         </div>
