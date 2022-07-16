@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     img: "https://user-images.githubusercontent.com/97395445/170713241-b2f5e9df-ae63-4ace-8709-ec8b921ebf5f.png",
-    link: "social-media-mern-proj.herokuapp.com",
+    link: "https://social-media-mern-proj.herokuapp.com/",
     name: "Social",
     code: "https://github.com/itsAfnanAlam/mern-social-app",
   },
