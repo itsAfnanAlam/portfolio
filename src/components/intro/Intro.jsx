@@ -98,7 +98,7 @@ const Intro = () => {
           </g>
         </svg>
       <div>
-      <a href="https://drive.google.com/file/d/18KDzf5AqTGPdy1KWy2WedMNgPpvw70Bh/view?usp=sharing" target="_blank" rel="noreferrer">
+      <a href="https://drive.google.com/file/d/1nSI4ZfPDfgDSfesDa9iHY_ph6N4oWEsq/view?usp=sharing" target="_blank" rel="noreferrer">
             <button className="resume-button">Resume</button>
           </a>
       </div>
